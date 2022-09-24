@@ -16,11 +16,7 @@ _✨ 基于OneBot适配器的[NoneBot2](https://v2.nonebot.dev/)自动/手动解
 
 ## 安装
 
-- 使用 pip
-
-```
-pip install nonebot_plugin_mcplayer
-```
+- 使用源码
 
 # 帮助  
 /bilitool help -> 显示这条信息 (等效指令:/帮助)  
