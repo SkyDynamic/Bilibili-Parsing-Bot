@@ -1,0 +1,3 @@
+bilibili_api==9.1.0
+nest_asyncio==1.5.5
+nonebot==1.9.1

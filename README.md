@@ -1,25 +1,12 @@
-<p align="center">
-  <a href="https://v2.nonebot.dev/"><img src="https://v2.nonebot.dev/logo.png" width="200" height="200" alt="nonebot"></a>
-</p>
+# Bili
 
-<div align="center">
-  
-# Bilibili-Parsing-Bot
-  
-_✨ 基于OneBot适配器的[NoneBot2](https://v2.nonebot.dev/)自动/手动解析BV号的插件 ✨_
-  
-</div>
+## How to start
 
-## 功能
+1. generate project using `nb create` .
+2. create your plugin using `nb plugin create` .
+3. writing your plugins under `src/plugins` folder.
+4. run your bot using `nb run` .
 
-- 自动/手动解析BV号
+## Documentation
 
-## 安装
-
-- 使用源码
-
-# 帮助  
-bilitool (help) -> 显示这条信息 (等效指令:/帮助)  
-bilitool on -> 开启自动解析  
-bilitool off -> 关闭自动解析  
-video (BV号) -> 手动解析BV号
+See [Docs](https://v2.nonebot.dev/)
