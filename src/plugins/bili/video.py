@@ -1,10 +1,9 @@
 from bilibili_api import video
-import asyncio
-import nest_asyncio
-nest_asyncio.apply()
+
 class Video():
-    def __init__(self, bvid):
-        asyncio.get_event_loop().run_until_complete(self.main(bvid))
+    async def __new__(self, bvid):
+        await self.main(self, bvid)
+        return self
 
     async def main(self, bvid):
         try:
