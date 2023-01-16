@@ -42,7 +42,7 @@ auto_analysis = on_keyword(['BV','bv','bV','Bv','b23.tv'],permission=GROUP,prior
 async def analysis(bot: Bot, mathcer: Matcher, event: GroupMessageEvent):
     group_json = Config_Read().group
     if str(event.group_id) not in group_json:
-        group_json[str(event.group_id)] = True
+        group_json[str(event.group_id)] = False
         Config_Write(group_json)
     if group_json[str(event.group_id)] == False:
         pass
